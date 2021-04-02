@@ -4,7 +4,7 @@ The key point of cross-modal image and text matching is how to accurately measur
 
 ## Requirements
 
-- **Milvus 0.10.2**
+- **Milvus 1.0.0**
 
 - Pytorch 1.0.0 & torchvision 0.2.1
 
