@@ -1,3 +1,5 @@
+:exclamation::exclamation: **This repo will no longer be maintained, please visit https://github.com/milvus-io/bootcamp** :exclamation: :exclamation:
+
 # Cross-modal pedestrian retrieval based on Milvus
 
 The key point of cross-modal image and text matching is how to accurately measure the similarity between images and text. This project references the [paper](https://openaccess.thecvf.com/content_ECCV_2018/papers/Ying_Zhang_Deep_Cross-Modal_Projection_ECCV_2018_paper.pdf) of Deep Cross-Modal Projection Learning for Image-Text Matchingand its [project](https://github.com/labyrinth7x/Deep-Cross-Modal-Projection-Learning-for-Image-Text-Matching), using Pytorch neural network to extract image-text embeddings. image features are extracted using the trained model and inserted into Milvus. After inputting the text and then using Milvus to search, similar images can be obtained to achieve cross-modal retrieval.
